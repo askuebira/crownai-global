@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CrownAI Global Technologies Ltd</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom, #0b0b0b, #050505);
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+    header {
+      background: rgba(14, 14, 14, 0.95);
+      text-align: center;
+      padding: 80px 20px 40px;
+      box-shadow: 0 0 60px rgba(0, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      animation: fadeIn 2s ease;
+    }
+    header img {
+      width: 130px;
+      filter: drop-shadow(0 0 10px #00ffff);
+      transition: transform 0.5s;
+    }
+    header img:hover {
+      transform: scale(1.1);
+    }
+    header h1 {
+      margin: 25px 0 12px;
+      font-size: 36px;
+      font-family: 'Orbitron', sans-serif;
+      color: #00ffff;
+      text-shadow: 0 0 20px #00ffff;
+    }
+    header p {
+      font-size: 18px;
+      color: #bbb;
+      animation: slideDown 1.2s ease;
+    }
+    .slogan {
+      text-align: center;
+      margin: 30px auto;
+      font-size: 20px;
+      color: #ff4d4d;
+      font-weight: bold;
+      text-shadow: 0 0 10px red;
+      animation: glow 2s infinite alternate;
+    }
+    .section {
+      padding: 60px 25px;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeInUp 1.5s ease;
+    }
+    .section h2 {
+      font-size: 28px;
+      margin-bottom: 25px;
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff;
+    }
+    .section p, .section li {
+      font-size: 17px;
+      line-height: 1.7;
+      color: #ccc;
+    }
+    .features ul {
+      list-style: none;
+      padding: 0;
+    }
+    .features li {
+      margin: 15px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+    .features li::before {
+      content: '★';
+      position: absolute;
+      left: 0;
+      color: #00ffff;
+      text-shadow: 0 0 6px #00ffff;
+    }
+    .founder {
+      text-align: center;
+    }
+    .founder img {
+      width: 110px;
+      border-radius: 50%;
+      border: 3px solid #00ffff;
+      box-shadow: 0 0 25px #00ffff;
+      transition: transform 0.4s;
+    }
+    .founder img:hover {
+      transform: rotate(3deg) scale(1.05);
+    }
+    .founder h3 {
+      margin-top: 18px;
+      color: #00ffff;
+      font-size: 22px;
+    }
+    .founder span {
+      display: block;
+      color: #aaa;
+      font-size: 15px;
+    }
+    .founder em {
+      color: #ff4d4d;
+      font-style: normal;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      background: #0e0e0e;
+      padding: 30px 20px;
+      font-size: 14px;
+      color: #777;
+      box-shadow: inset 0 0 20px rgba(0, 255, 255, 0.1);
+    }
+    footer a {
+      color: #00ffff;
+      margin: 0 10px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    footer a:hover {
+      color: #ff4d4d;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 8px #ff0000; }
+      to { text-shadow: 0 0 18px #ff4d4d; }
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 28px;
+      }
+      .section h2 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/assets/crownai-logo.png" alt="CrownAI Logo" />
+    <h1>CrownAI Global Technologies Ltd</h1>
+    <p>AI Sovereignty for Nations, Networks, and Next-Gens</p>
+  </header>
+
+  <div class="slogan">👑 Crowning the Future with Intelligence</div>
+
+  <section class="section">
+    <h2>🚀 About CrownAI</h2>
+    <p>CrownAI is a royal-grade AI powerhouse delivering advanced SaaS systems, 5D intelligence models, cyber defense suites, and automated digital transformation tools for governments, enterprises, and global builders.</p>
+  </section>
+
+  <section class="section features">
+    <h2>💼 Core Services</h2>
+    <ul>
+      <li>⚙️ Autonomous AI & ML Intelligence</li>
+      <li>🛡️ Cyber Defense & Red Team Tools</li>
+      <li>🌐 Full-Stack SaaS Development</li>
+      <li>📊 Predictive Analytics & Big Data</li>
+      <li>🐧 Secure Linux Infrastructure Design</li>
+      <li>☁️ Cloud AI Orchestration & DevOps</li>
+      <li>🔍 Advanced OSINT & Threat Hunting</li>
+    </ul>
+  </section>
+
+  <section class="section founder">
+    <img src="/assets/asuku.png" alt="Prince Jagaban" />
+    <h3>Prince Jagaban</h3>
+    <span>(Mamman Abduljalil Asuku)</span>
+    <em>aka The Tech Monarch</em>
+  </section>
+
+  <footer>
+    🌍 Lagos | Abuja | Dubai | New York | London<br /><br />
+    <a href="https://x.com/crownai_global">X</a> |
+    <a href="https://linkedin.com/company/crownai">LinkedIn</a> |
+    <a href="mailto:contact@crownai.global">Email</a>
+  </footer>
+</body>
+</html>
